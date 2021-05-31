@@ -7,7 +7,7 @@ import javax.validation.constraints.Size;
 @ToString
 public class Student {
     @Size(min=2, max=50)
-    private String name="Maxim Bychkov";
+    private String name="Artyuh Eugene";
 
     @RequestMapping("/Student")
     public String Get(){
